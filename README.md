@@ -309,8 +309,8 @@ argument is the base that should be used in parsing (e.g., `2` for binary or
 `10` for decimal). For example, `100` is `100` in decimal but `4` in binary:
 
 ```js
-Number.parseInt('100', 10);
-//=> 100
+   Number.parseInt('100', 10);
+   //=> 100
 
 Number.parseInt('100', 2);
 //=> 4
